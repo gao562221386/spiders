@@ -1,0 +1,1117 @@
+2017-09-13 12:34:26 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: Douyu)
+2017-09-13 12:34:26 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'Douyu', 'LOG_FILE': 'mylog.log', 'NEWSPIDER_MODULE': 'Douyu.spiders', 'SPIDER_MODULES': ['Douyu.spiders']}
+2017-09-13 12:34:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-13 12:34:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-13 12:34:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-13 12:34:26 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-09-13 12:34:26 [scrapy.core.engine] INFO: Spider opened
+2017-09-13 12:34:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-13 12:34:26 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-09-13 12:34:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=> (referer: None)
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '长沙市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/1944905_20170913091012_big.jpg',
+ 'name': '苏艾琳lrene',
+ 'uid': '77709365'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/585704_1218.jpg',
+ 'name': '糯米团子Q',
+ 'uid': '19147117'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/09/688928_20170809155335_big.jpg',
+ 'name': '小6想去月球',
+ 'uid': '53630670'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '杭州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/2015902_20170913092404_big.jpg',
+ 'name': '二狗妹妹呀',
+ 'uid': '26530469'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/30/2438319_20170830140629_big.jpg',
+ 'name': '萌小萌兒丶',
+ 'uid': '146724460'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '长沙市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/22/1282190_20170822024151_big.jpg',
+ 'name': '鲸鱼欧尼',
+ 'uid': '77538371'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '长沙市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/1820280_20170907121335_big.jpg',
+ 'name': '你的早',
+ 'uid': '13318382'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '福州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/1910968_20170905115710_big.jpg',
+ 'name': '钱沙沙Amanda',
+ 'uid': '126080188'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/06/17/1023720_20170617131803_big.jpg',
+ 'name': '岚鹤',
+ 'uid': '63239750'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/09/2640365_20170809162438_big.jpg',
+ 'name': '云小朵MM',
+ 'uid': '148349656'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '长沙市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2074998_20170909134630_big.jpg',
+ 'name': '醉朵大仙儿',
+ 'uid': '136398965'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/06/2611872_20170906182902_big.jpg',
+ 'name': '旮豆',
+ 'uid': '151455933'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '郴州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/08/2944782_20170908170137_big.jpg',
+ 'name': '橘子只吃皮',
+ 'uid': '158242297'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '东营市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/1614152_20170913115614_big.jpg',
+ 'name': '大倩倩欧尼酱',
+ 'uid': '101979329'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/3171666_20170912205106_big.jpg',
+ 'name': '潇洒的姜小姐',
+ 'uid': '163825613'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '福州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/699510_20170913110652_big.jpg',
+ 'name': 'pinky水蜜桃',
+ 'uid': '54437350'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '沈阳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/11/2659550_20170911133145_big.jpg',
+ 'name': '大公主Q大仙女',
+ 'uid': '152071912'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '本溪市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/31/2755344_20170831183306_big.jpg',
+ 'name': '是绯苒呀',
+ 'uid': '154172946'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '南宁市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/3055021_20170905221606_big.jpg',
+ 'name': '小小欣丶丶',
+ 'uid': '161056834'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '杭州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/06/3173557_20170906160621_big.jpg',
+ 'name': 'Aaby雪莉',
+ 'uid': '40171519'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '乐山市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/02/2042311_20170902105251_big.jpg',
+ 'name': '软软的兮兮',
+ 'uid': '133794926'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/537428_20170905161519_big.jpg',
+ 'name': '尛小钰',
+ 'uid': '36533415'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/2096348_20170905221533_big.jpg',
+ 'name': '小镜子6',
+ 'uid': '137582691'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2156588_20170909163320_big.jpg',
+ 'name': 'Oo大哥洁oO',
+ 'uid': '140185627'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/11/918415_20170911113343_big.jpg',
+ 'name': '这是三妹啊',
+ 'uid': '26632830'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/2182510_20170913000444_big.jpg',
+ 'name': '甜馨大队长',
+ 'uid': '140810257'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/15/553918_20170715115354_big.jpg',
+ 'name': '懒喵YUKI酱',
+ 'uid': '38616787'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': 'Santa Ana',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/24/910907_20170824111337_big.jpg',
+ 'name': '流口水的小熊猫',
+ 'uid': '63094483'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '吉林市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/17/2661209_20170817104418_big.jpg',
+ 'name': 'IrisNa',
+ 'uid': '152466508'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/22/1936080_20170722232723_big.jpg',
+ 'name': '呆宝丫丫丫',
+ 'uid': '40666524'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2008433_20170909201929_big.jpg',
+ 'name': '鲸鱼妹爱素颜',
+ 'uid': '132264011'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/13/2700143_20170813180510_big.jpg',
+ 'name': '赵西子丶',
+ 'uid': '144631678'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/06/24/1500006_20170624155831_big.jpg',
+ 'name': '桃谷绘里淳',
+ 'uid': '92491026'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '温哥华',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/25/534716_20170825114142_big.jpg',
+ 'name': '白小染ECHO',
+ 'uid': '34060798'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '杭州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/21/2312445_20170821010757_big.jpg',
+ 'name': '尹晗YH',
+ 'uid': '144385500'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '南京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/24/1269983_20170824001756_big.jpg',
+ 'name': '西西嘟球球',
+ 'uid': '77169103'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/2660977_20170910105220_big.jpg',
+ 'name': '宇晴妹妹',
+ 'uid': '152272261'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/3120083_20170904064608_big.jpg',
+ 'name': '酱麻麻',
+ 'uid': '45355489'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/1462155_20170910124058_big.jpg',
+ 'name': '小流氓不可爱',
+ 'uid': '46378728'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '连云港市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2262374_20170909215637_big.jpg',
+ 'name': '苏沁沁沁沁',
+ 'uid': '142801810'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '苏州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/07/1942818_20170807155804_big.jpg',
+ 'name': '国民媳妇儿江江鱼',
+ 'uid': '128641608'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/1835676_20170905211654_big.jpg',
+ 'name': '木宁是柠檬的柠',
+ 'uid': '117305165'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '荆门市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/2461018_20170905235926_big.jpg',
+ 'name': '阿狸小公主丶',
+ 'uid': '147558480'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '石家庄市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/06/1089201_20170906180418_big.jpg',
+ 'name': '爱打嗝的璐Dad',
+ 'uid': '70152717'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/06/2475311_20170906195658_big.jpg',
+ 'name': '真的是冷冷呀',
+ 'uid': '147902330'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/2484765_20170912224634_big.jpg',
+ 'name': '育美小姐姐',
+ 'uid': '148178103'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '衡水市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/1301709_20170904090943_big.jpg',
+ 'name': 'LH熙言',
+ 'uid': '76488466'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/31/511452_20170831222202_big.jpg',
+ 'name': '心心心念念',
+ 'uid': '32458863'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/05/17/2171440_20170517021700_big.jpg',
+ 'name': '小丸子牛逼',
+ 'uid': '140536731'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '广州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/31/2228580_20170831120636_big.jpg',
+ 'name': '墨米儿nn',
+ 'uid': '141970475'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/3088451_20170905153145_big.jpg',
+ 'name': '一只77酱',
+ 'uid': '161538092'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/11/1561762_20170911042441_big.jpg',
+ 'name': '哆啦真真',
+ 'uid': '98209480'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '济南市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/30/2363399_20170830202636_big.jpg',
+ 'name': '你焦er',
+ 'uid': '145193748'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/02/1295864_20170902013725_big.jpg',
+ 'name': '谷猫宁',
+ 'uid': '77673106'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '南京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/643507_20170912214934_big.jpg',
+ 'name': 'Abby大菲儿',
+ 'uid': '49707605'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '淄博市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/29/3076659_20170829182134_big.jpg',
+ 'name': 'Sk逗小鱼',
+ 'uid': '161516076'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/31/2124852_20170831003822_big.jpg',
+ 'name': 'summer阿紫',
+ 'uid': '138415627'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '洛杉矶',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/2463304_20170913121126_big.jpg',
+ 'name': '艾米粒aa',
+ 'uid': '147600323'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/22/2623238_20170822192444_big.jpg',
+ 'name': '痣哥呦妹',
+ 'uid': '151732988'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': 'Los Angeles',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/14/822764_20170814194810_big.jpg',
+ 'name': '巫女蛋',
+ 'uid': '59173095'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/18/2748146_20170818090731_big.jpg',
+ 'name': '请不要追着我打',
+ 'uid': '154153286'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '九江市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/20/1258393_20170820183057_big.jpg',
+ 'name': '迷人觉',
+ 'uid': '76683871'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '金华市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/30/1409119_20170830115511_big.jpg',
+ 'name': '我是肉球i',
+ 'uid': '85409169'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '南京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/26/2757958_20170826120640_big.jpg',
+ 'name': '豆儿妹ayay',
+ 'uid': '139873379'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '郑州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2843674_20170909081044_big.jpg',
+ 'name': '美少女崔崔',
+ 'uid': '155782249'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/3017432_20170907174648_big.jpg',
+ 'name': '费小静',
+ 'uid': '159800594'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '滨州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/3078811_20170907111957_big.jpg',
+ 'name': '半青美瞳',
+ 'uid': '161178040'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '绥化市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2016/11/30/1416321_20161130022411_big.jpg',
+ 'name': '东北少年丶',
+ 'uid': '88878209'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/1458191_20170912003628_big.jpg',
+ 'name': '牛牛easy',
+ 'uid': '76247329'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/25/1722875_20170825210050_big.jpg',
+ 'name': '在下就是关关',
+ 'uid': '110275519'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '娄底市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/1985137_20170913112823_big.jpg',
+ 'name': '小小U呀',
+ 'uid': '127064357'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/2998316_20170912100938_big.jpg',
+ 'name': '如如想瘦成闪电',
+ 'uid': '159558312'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/roomCover/2017/08/21/6090acb4cc5e4e4326abcc7ef5c653c3_small.jpg',
+ 'name': '楠宝ailin',
+ 'uid': '158328753'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/675107_1218.jpg',
+ 'name': '琪宝宝1122',
+ 'uid': '30294865'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/05/03/1974927_20170503155335_big.jpg',
+ 'name': '周周zoe1',
+ 'uid': '130353279'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/25/896127_20170825014739_big.jpg',
+ 'name': '叁儿m',
+ 'uid': '62412426'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '长春市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/14/2003102_20170814153116_big.jpg',
+ 'name': '乐大拿',
+ 'uid': '46196040'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/13/1637554_20170813041143_big.jpg',
+ 'name': '苏小小sia',
+ 'uid': '96887354'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/04/09/1993612_20170409174625_big.jpg',
+ 'name': '好大一个小可爱',
+ 'uid': '128950311'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/06/2209969_20170906160635_big.jpg',
+ 'name': 'Yc丶Miababe',
+ 'uid': '141790713'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/1982742_20170910193420_big.jpg',
+ 'name': 'Yc丶优优',
+ 'uid': '129486244'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '仙桃市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/06/25/2122860_20170625005440_big.jpg',
+ 'name': '暖心你青姐',
+ 'uid': '139065600'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/06/08/2147588_20170608084612_big.jpg',
+ 'name': '抱抱杨穆穆',
+ 'uid': '128522097'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3182642_20170913071839_big.jpg',
+ 'name': 'sisilove88',
+ 'uid': '164125185'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/15/853572_20170815212309_big.jpg',
+ 'name': '无敌美少女颖哥哥',
+ 'uid': '60226543'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/08/2404476_20170908124059_big.jpg',
+ 'name': '可爱的可可吖丶',
+ 'uid': '145973794'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2775201_1218.jpg',
+ 'name': '麻秆圈圈',
+ 'uid': '148137113'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/19/722468_20170819215343_big.jpg',
+ 'name': '野生笑笑',
+ 'uid': '55551066'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '临沂市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/21/2975384_20170821121508_big.jpg',
+ 'name': '胖丫y',
+ 'uid': '159098632'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '石家庄市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/05/2500237_20170805125510_big.jpg',
+ 'name': '一位鱼',
+ 'uid': '148546868'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/roomCover/2017/09/03/999e97d776c16d07e9b8ea4b32ffafa5_small.jpg',
+ 'name': '丶阿乐乐乐乐乐乐',
+ 'uid': '162803056'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/03/2980804_20170903001040_big.jpg',
+ 'name': '小月亮luna',
+ 'uid': '159070019'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/03/2949134_20170903110714_big.jpg',
+ 'name': 'fansou299',
+ 'uid': '158379981'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '南京市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/497889_1218.jpg',
+ 'name': '冯雪倩啊',
+ 'uid': '31456028'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2868547_20170909225806_big.jpg',
+ 'name': '麦克绵绵',
+ 'uid': '156220655'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '滁州市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1258291_v0831.jpg',
+ 'name': '野钓浮云堂',
+ 'uid': '76680936'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/28/2380853_20170828163338_big.jpg',
+ 'name': '无敌圆脸妹',
+ 'uid': '145800944'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3146863_1218.jpg',
+ 'name': 'summer菲儿',
+ 'uid': '163094427'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/18/2564521_20170718142217_big.jpg',
+ 'name': 'Glamor萌萌',
+ 'uid': '149771647'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3154362_20170913014224_big.jpg',
+ 'name': '自欣kina',
+ 'uid': '162519843'}
+2017-09-13 12:34:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100> (referer: http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=)
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/28/2152211_20170828171454_big.jpg',
+ 'name': '瓶子小菇凉',
+ 'uid': '139998276'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/2974693_20170912233520_big.jpg',
+ 'name': '西美Elva',
+ 'uid': '159089458'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/02/25/605192_20170225195030_big.jpg',
+ 'name': '舒雅宜人',
+ 'uid': '43909486'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/3164467_20170907124249_big.jpg',
+ 'name': '满月映雪',
+ 'uid': '119269621'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '爱迪生',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/590737_1218.jpg',
+ 'name': '我就是UU阿i',
+ 'uid': '13964811'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '西安市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/2865127_20170910012034_big.jpg',
+ 'name': '悠丶悠tt',
+ 'uid': '155941228'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '广州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3210309_20170913111835_big.jpg',
+ 'name': 'Lucky吖头',
+ 'uid': '164789188'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '萍乡市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/3232875_20170912123357_big.jpg',
+ 'name': '大大册爱你哟',
+ 'uid': '165300826'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '太原市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/24/2802436_20170824133901_big.jpg',
+ 'name': '欧米伽24',
+ 'uid': '155190009'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/3089736_20170907130347_big.jpg',
+ 'name': '像阵风wind',
+ 'uid': '161517450'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/03/2673004_20170903095447_big.jpg',
+ 'name': '大大大脸萝卜',
+ 'uid': '152701201'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '大美雨',
+ 'uid': '164112387'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '白山市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/28/438573_20170828095402_big.jpg',
+ 'name': '米堃堃堃堃堃堃堃堃',
+ 'uid': '26493823'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鞍山市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/2572605_20170904143123_big.jpg',
+ 'name': 'Mr君先森',
+ 'uid': '148583084'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '镇江市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/24/721401_20170824122250_big.jpg',
+ 'name': '小每文love',
+ 'uid': '55033036'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '新北市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2112768_v1232.jpg',
+ 'name': '米锐克频道',
+ 'uid': '136127336'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '长沙市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/566963_1123.jpg',
+ 'name': '杜小喵爱兔',
+ 'uid': '4247089'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2998313_1218.jpg',
+ 'name': 'A灬Vip丿筱媛',
+ 'uid': '159567659'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '吉林市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/11/3164917_20170911075924_big.jpg',
+ 'name': '我有一只猫叫迪仔',
+ 'uid': '163630730'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '大连市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/15/1828608_20170815013731_big.jpg',
+ 'name': '熙瓜祖宗',
+ 'uid': '116862499'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3216089_20170913115914_big.jpg',
+ 'name': '单眼皮的小甜心',
+ 'uid': '164916518'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/24/2649272_20170724084450_big.jpg',
+ 'name': 'hi安一',
+ 'uid': '152247723'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '襄阳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/1163063_20170904150330_big.jpg',
+ 'name': '吃土的汐颜mm',
+ 'uid': '73426394'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/3156000_20170904183112_big.jpg',
+ 'name': '妤妤酱啦',
+ 'uid': '163384873'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '嘉兴市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1004966_0145.jpg',
+ 'name': 'Julia西林宝宝',
+ 'uid': '64772644'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '沈阳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/1588751_20170913112554_big.jpg',
+ 'name': '蟹老大吖吖吖',
+ 'uid': '100649493'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '许昌市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/27/2481136_20170827011829_big.jpg',
+ 'name': '豆大大大王',
+ 'uid': '144059342'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '青岛市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/29/2532320_20170829132812_big.jpg',
+ 'name': '创业女汉子叫小漫',
+ 'uid': '149317662'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/3190222_20170909110203_big.jpg',
+ 'name': '陈大肉丝儿',
+ 'uid': '164337164'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '乌鲁木齐市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/2160298_20170912140722_big.jpg',
+ 'name': '是仙女包呀',
+ 'uid': '140315130'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '廊坊市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/961535_1218.jpg',
+ 'name': '小姑姑月月',
+ 'uid': '64937798'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '大同市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/2397489_20170910210235_big.jpg',
+ 'name': '可乐味娇猫',
+ 'uid': '145979313'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '铁岭市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/23/2271711_20170823155718_big.jpg',
+ 'name': '一脸懵逼的安妮',
+ 'uid': '143453174'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/05/29/600322_20170529193959_big.jpg',
+ 'name': '苏映雪儿',
+ 'uid': '36099410'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '牡丹江市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/09/2925139_20170909135248_big.jpg',
+ 'name': '小葫芦妹纸',
+ 'uid': '157264265'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/23/2493525_20170823141535_big.jpg',
+ 'name': '玺大大xx',
+ 'uid': '148343209'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '南充市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/13/2818869_20170813213915_big.jpg',
+ 'name': '夏迎春xxx',
+ 'uid': '155459498'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '青岛市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/01/13/1600644_20170113140839_big.jpg',
+ 'name': '凯特大芒果',
+ 'uid': '101229534'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/3216752_20170910174700_big.jpg',
+ 'name': '辰伊姑娘',
+ 'uid': '64560559'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/572842_v1232.jpg',
+ 'name': '沈总',
+ 'uid': '12547814'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '苏州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/1081095/20160918/b60a4de5ab3e7850b7382f5caf1b500b_big.jpg',
+ 'name': '幸福的麦兜Y',
+ 'uid': '69756468'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/864103/20160808/975ece13d523b1f2098c4c34afcc295f_big.jpg',
+ 'name': '等风来小沈',
+ 'uid': '61132741'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '本溪市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/08/2139016_20170908115550_big.jpg',
+ 'name': '草莓醒醒阿',
+ 'uid': '139685999'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '郑州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/15/2658730_20170815120810_big.jpg',
+ 'name': '小橙子cc6',
+ 'uid': '152430599'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '景德镇市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/22/2632768_20170822142421_big.jpg',
+ 'name': '钟铭秀',
+ 'uid': '151944847'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/21/2976635_20170821144014_big.jpg',
+ 'name': '青狐妖妖',
+ 'uid': '159118425'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '太原市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/05/3153733_20170905105453_big.jpg',
+ 'name': '处女座的宋小姐',
+ 'uid': '163088556'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '楚雄彝族自治州',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/3110008_20170904232126_big.jpg',
+ 'name': '妖艳小荡妇',
+ 'uid': '162250318'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/02/3103170_20170902110339_big.jpg',
+ 'name': '沈爷kris',
+ 'uid': '162115671'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '萍乡市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/3173212_20170912145518_big.jpg',
+ 'name': '半斤酱酱',
+ 'uid': '109895590'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '安顺市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/10/2712597_20170910135627_big.jpg',
+ 'name': '十七么么毒',
+ 'uid': '131674964'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '长春市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/07/3106484_20170907111717_big.jpg',
+ 'name': '脸脸feng',
+ 'uid': '162186572'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '长春市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/31/3107944_20170831184211_big.jpg',
+ 'name': '老妖怪怪怪怪',
+ 'uid': '162214279'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/06/03/2023140_20170603165104_big.jpg',
+ 'name': 'Little苒苒',
+ 'uid': '133064130'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '咸宁市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/13/2549833_20170713112513_big.jpg',
+ 'name': '梦梦如',
+ 'uid': '149670852'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3241043_v1233.jpg',
+ 'name': '错了旋律',
+ 'uid': '76499129'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/04/1053915_20170904175451_big.jpg',
+ 'name': '奈洛森',
+ 'uid': '62915338'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '十堰市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/18/2937329_20170818085308_big.jpg',
+ 'name': '一个小仙女耶',
+ 'uid': '158072948'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/24/3007333_20170824152201_big.jpg',
+ 'name': '小獸獸饕餮',
+ 'uid': '155442111'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1705/02/18/1960133_v170502182417.jpg',
+ 'name': 'Sandyday',
+ 'uid': '86500495'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/31/2462783_20170731151834_big.jpg',
+ 'name': '丽江大姨父丶',
+ 'uid': '38565707'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '苏州市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3189958_20170913021425_big.jpg',
+ 'name': '妮子不倾城',
+ 'uid': '164333389'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '平淡无奇的小美丽ii',
+ 'uid': '165569719'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '石家庄市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1611/20/09/903897_v161120092302.jpg',
+ 'name': '知识链',
+ 'uid': '62797315'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '雅安市',
+ 'image_link': 'https://rpic.douyucdn.cn/z1609/14/09/978661_v160914094921.jpg',
+ 'name': '陆牧',
+ 'uid': '46951257'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1592334_v1232.jpg',
+ 'name': '李艾偌就是李狗蛋',
+ 'uid': '100893641'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/a1706/16/10/1800116_170616105450.jpg',
+ 'name': '花了几十句',
+ 'uid': '47160273'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/08/3108300_20170908091236_big.jpg',
+ 'name': '美少女TT',
+ 'uid': '162207764'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '北京市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170912/3220923_v2336.jpg',
+ 'name': '学吧就是我',
+ 'uid': '13735782'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '西安市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '谁懂瑜儿爱亮儿',
+ 'uid': '32966385'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '东莞市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170912/3237928_v2253.jpg',
+ 'name': '石峰山安化黑茶',
+ 'uid': '165408966'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '瘾sixth',
+ 'uid': '165184554'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '高小伙民谣在路上',
+ 'uid': '165568467'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '女团狂魔',
+ 'uid': '165570957'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '吉林市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '群圣哦巴',
+ 'uid': '165325534'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/z1604/30/09/618867_160430093927.jpg',
+ 'name': '倾丶小王子',
+ 'uid': '33973989'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '合肥市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/700169_v1232.jpg',
+ 'name': '言武and午文',
+ 'uid': '41197498'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '郑州市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1612/13/11/1071631_161213115212.jpg',
+ 'name': '古城深巷殇少年',
+ 'uid': '42296455'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '重庆市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1708/12/12/1128377_v170812121603.jpg',
+ 'name': '追风少年凯哥',
+ 'uid': '69911824'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/07/24/1154951_20170724182308_big.jpg',
+ 'name': '语儿时光',
+ 'uid': '70928343'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '大连市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1611/20/18/1371345_v161120183624.jpg',
+ 'name': 'BulingBuling会发光啊',
+ 'uid': '83064150'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '宿州市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170831/1444297_v1746.jpg',
+ 'name': '音乐顽童',
+ 'uid': '85616073'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '东莞市',
+ 'image_link': 'https://rpic.douyucdn.cn/a1706/06/11/2264002_v170606114235.jpg',
+ 'name': '四川林',
+ 'uid': '143162003'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '运城市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/08/25/2462853_20170825000330_big.jpg',
+ 'name': '梦工厂一甜甜',
+ 'uid': '146158569'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '彼此他他他',
+ 'uid': '148280034'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': 'jokwe',
+ 'uid': '165349209'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '垚垚大垚垚',
+ 'uid': '160762437'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '上海市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '小玉酱工作室',
+ 'uid': '165376815'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '济南市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '六十六是六十七的爹',
+ 'uid': '27231069'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '鱼塘',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '我媳妇叫妮妮',
+ 'uid': '131616522'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '无锡市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/125003_v1232.jpg',
+ 'name': '我真的没有钱',
+ 'uid': '2144581'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '烟台市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1783992_v1232.jpg',
+ 'name': '开心快乐去旅游',
+ 'uid': '114910795'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '南京市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/2734272_20170912111747_big.jpg',
+ 'name': '吃完小草好睡觉',
+ 'uid': '153949776'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '珠海市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2137725_v1232.jpg',
+ 'name': '只喜欢看波',
+ 'uid': '91040605'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '青岛市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2657235_v1232.jpg',
+ 'name': '散打墨小叶',
+ 'uid': '152409814'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '汕头市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3239828_v1233.jpg',
+ 'name': '小兔儿23333',
+ 'uid': '164185378'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '银川市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/3210518_20170913122148_big.jpg',
+ 'name': '美薇啊',
+ 'uid': '164778220'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '黄石市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/324798_1218.jpg',
+ 'name': '宛如推土机',
+ 'uid': '828054'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1683111_1218.jpg',
+ 'name': 'AE86丶幻翎逆羽',
+ 'uid': '101981975'}
+2017-09-13 12:34:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1796546_1218.jpg',
+ 'name': '奈何桥前小梁哥',
+ 'uid': '24325280'}
+2017-09-13 12:34:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200> (referer: http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100)
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '深圳市',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/13/2446287_20170913115322_big.jpg',
+ 'name': '熙熙私厨',
+ 'uid': '144787064'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3186145_v1136.jpg',
+ 'name': '平常五彩世界',
+ 'uid': '163873626'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3223626_1218.jpg',
+ 'name': '太阳下的小妮',
+ 'uid': '165124706'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/appCovers/2017/09/12/3234521_20170912182342_big.jpg',
+ 'name': '小小京鱼仔',
+ 'uid': '165321802'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '武汉市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3152197_v1228.jpg',
+ 'name': '武汉余文乐Le',
+ 'uid': '47342819'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '鱼塘',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/103776_1140.jpg',
+ 'name': '顾丶小夜',
+ 'uid': '4872449'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '成都市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/1799787_0948.jpg',
+ 'name': 'Caseybene',
+ 'uid': '66439482'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '临沂市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2677222_v1213.jpg',
+ 'name': '666625252记号笔',
+ 'uid': '144159428'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '徐州市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/2332050_v1232.jpg',
+ 'name': '清儿直播',
+ 'uid': '109847535'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '莆田市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3227030_v1016.jpg',
+ 'name': '欢欢喜喜的欢欢',
+ 'uid': '165168195'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '固原市',
+ 'image_link': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'name': '有点丑的帅哥哥',
+ 'uid': '165366659'}
+2017-09-13 12:34:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200>
+{'city': '上海市',
+ 'image_link': 'https://rpic.douyucdn.cn/acrpic/170913/3240489_v1138.jpg',
+ 'name': 'Liz222222',
+ 'uid': '165562430'}
+2017-09-13 12:34:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=300> (referer: http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=200)
+2017-09-13 12:34:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-09-13 12:34:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1256,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 30902,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 9, 13, 4, 34, 27, 167513),
+ 'item_scraped_count': 212,
+ 'log_count/DEBUG': 217,
+ 'log_count/INFO': 7,
+ 'memusage/max': 45232128,
+ 'memusage/startup': 45228032,
+ 'request_depth_max': 3,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2017, 9, 13, 4, 34, 26, 536956)}
+2017-09-13 12:34:27 [scrapy.core.engine] INFO: Spider closed (finished)
